@@ -60,12 +60,12 @@ header {
 /* scroll down message  */
 
 .scroll_down {
-    position: absolute;
+    /* position: absolute;
     right: 0.3rem;
     bottom: 5rem;
     transform: rotate(90deg);
     font-weight: 200;
-    font-size: 0.9rem;
+    font-size: 0.9rem; */
     /* z-index: 1; */
 }
 
