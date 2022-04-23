@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css';
-import ME from '../../assets/me-about.jpg';
+import ME from '../../assets/real-me.jpg';
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
       <div className='container about_container'>
         <div className='about_me'>
           <div className="about_me_image">
-            <img src={ME} alt="about image" />
+            <img src={ME} alt="an image of me" id="about-me-image"/>
           </div>
         </div>
 
@@ -23,7 +23,10 @@ const About = () => {
           </div>
 
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Hi, I'm Daniel. I am a fullstack web developer looking for intern and entry level
+          opputunities to gain experience in the industry. I have been studying to code 
+          for 2 years and have learned multiple technologies. I'm a fast learner and a natural 
+          problem solver that can help you achieve your goals with efficiency! I hope to be working with you soon, I won't let you down :).
 
           </p>
 

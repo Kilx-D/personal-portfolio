@@ -33,16 +33,16 @@ const Contact = () => {
           <div className="contact-option">
             <MdOutlineEmail className='contact-option-icon'/>
             <h4>Email</h4>
-            <h5>dannyservices64@gmail.com</h5>
-            <a href="mailto:dannyservices64@gmail.com" target="_blank">Send a Message</a>
+            <h5>dannyport93@gmail.com</h5>
+            <a href="mailto:dannyport93@gmail.com" target="_blank">Send a Message</a>
           </div>
 
-          <div className="contact-option">
+          {/* <div className="contact-option">
             <RiMessengerLine className='contact-option-icon'/>
             <h4>Messenger</h4>
             <h5>Kilxter</h5>
             <a href="https://m.me/ernest.achiever" target="_blank">Send a Message</a>
-          </div>
+          </div> */}
 
           <div className="contact-option">
             <BsWhatsapp className='contact-option-icon'/>

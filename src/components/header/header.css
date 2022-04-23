@@ -2,12 +2,21 @@ header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+    background: url('../../assets/city.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: flex;
+    justify-content: center;
+    border-bottom: 2px solid cyan;
+
 }
 
 .header_container {
     text-align: center;
     height: 100%;
     position: relative;
+    width: 100%;
 }
 
 /* cta */
@@ -29,6 +38,11 @@ header {
     position: absolute;
     left: 0;
     bottom: 3rem;
+    font-size: 1.2rem;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    border-radius: 1.2rem;
+
 }
 
 
@@ -54,9 +68,27 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem  1.5rem 1.5rem 1.5rem;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
 
 }
+
+
+.hero {
+    background: rgba(0, 0, 0, 0.3);
+    width: max-content;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1.4rem;
+    backdrop-filter: blur(5px);
+
+}
+
+.hero h1,
+.hero h5.text-light {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
 /* scroll down message  */
 
 .scroll_down {
@@ -75,6 +107,11 @@ header {
     header {
         height: 68vh;
     }
+
+    .header_socials {
+        padding: 0.5rem;
+        font-size: 0.8rem;
+    }
 }
 
 /* media queries for small devices */
@@ -84,7 +121,23 @@ header {
         height: 100vh;
     }
 
-    .header_socials, .scroll_down {
+    .header_socials,
+    .scroll_down {
         display: none;
+    }
+
+    .hero h1,
+    .hero h5.text-light {
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero h5.text-light {
+        font-size: 0.5rem;
     }
 }

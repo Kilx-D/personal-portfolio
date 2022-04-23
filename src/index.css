@@ -13,7 +13,7 @@
 
 /* variables for the website for it's style */
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #00001a;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -33,7 +33,17 @@ html {
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    /* display: none; */
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(0, 0, 41);
+}
+
+::-webkit-scrollbar-thumb {
+    background: cyan;
+    border-radius: 1rem;
 }
 
 body {
@@ -41,7 +51,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    background-image: url("./assets/gplay.png");
 
 }
 
@@ -72,6 +82,9 @@ section > h2, section > h5 {
 section > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 800;
 }
 
 .text-light { 
