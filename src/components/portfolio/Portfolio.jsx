@@ -12,46 +12,46 @@ import IMG6 from '../../assets/portfolio6.jpg';
 const data = [
   {
       id: 1,
-      image: IMG1,
-      title: 'Crypt currenty dashboard & financial visualization',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization'
+      image: "https://media.discordapp.net/attachments/781794429652566056/967536676652081232/unknown.png?width=477&height=422",
+      title: 'Programmer survey Form',
+      github: 'https://codepen.io/kilx-d/pen/qBXMWdZ',
+      demo: 'https://codepen.io/kilx-d/full/qBXMWdZ'
 
   },
   {
       id: 2,
-      image: IMG2,
-      title: 'Charts templates & infographics in Figma',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      image: "https://media.discordapp.net/attachments/781794429652566056/967539250792919080/unknown.png?width=407&height=422",
+      title: 'Drum Kit App made with Javascript',
+      github: 'https://github.com/Kilx-D/Javascript-drum-kit',
+      demo: 'https://kilx-d.github.io/Javascript-drum-kit/'
   },
   {
       id: 3,
-      image: IMG3,
-      title: 'Figma dashboard UI kit for data design web apps',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+      image: "https://media.discordapp.net/attachments/781794429652566056/967536226414522378/unknown.png",
+      title: 'Todolist app made with React',
+      github: 'https://codesandbox.io/s/managing-a-component-tree-practice-forked-wifmug?file=/src/index.js',
+      demo: 'https://wifmug.csb.app'
   },
   {
       id: 4,
-      image: IMG4,
-      title: 'Maintaining tasks and tracking progress',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+      image: "https://media.discordapp.net/attachments/781794429652566056/967537943029878853/unknown.png?width=763&height=422",
+      title: 'Tindog Business Landing Page made with Bootstrap',
+      github: 'https://github.com/Kilx-D/Tindog',
+      demo: 'https://kilx-d.github.io/Tindog/'
   },
   {
       id: 5,
-      image: IMG5,
-      title: 'Charts templates & infographics in figma',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+      image: "https://media.discordapp.net/attachments/781794429652566056/967550557118140436/unknown.png?width=498&height=422",
+      title: 'Daily Journal Blog site made with ejs, expressjs, and mongoDB',
+      github: 'https://github.com/Kilx-D/ejs-blog',
+      demo: 'https://damp-atoll-59993.herokuapp.com'
   }, 
   {
       id: 6,
-      image: IMG6,
-      title: 'Charts templates & infographics in Figma',
-      github: 'https://github.com',
-      demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-charts-templates-infographics-in-Figma'
+      image: "https://cdn.discordapp.com/attachments/781794429652566056/967586843447140422/unknown.png",
+      title: 'A todolist utilizing MongoDB and Expressjs',
+      github: 'https://github.com/Kilx-D/Todolist-App',
+      demo: 'https://glacial-crag-00640.herokuapp.com'
   }
 ]
 

@@ -23,7 +23,7 @@ const About = () => {
           </div>
 
           <p>
-          Hi, I'm Daniel. I am a fullstack web developer looking for intern and entry level
+          Hi, I'm Daniel, or Kilxby/Kilxter around the internet. I am a fullstack web developer looking for intern and entry level
           opputunities to gain experience in the industry. I have been studying to code 
           for 2 years and have learned multiple technologies. I'm a fast learner and a natural 
           problem solver that can help you achieve your goals with efficiency! I hope to be working with you soon, I won't let you down :).

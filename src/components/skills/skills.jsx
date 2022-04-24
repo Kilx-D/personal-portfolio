@@ -156,6 +156,20 @@ const Skills = () => {
                                 <small className='text-light'>Basic</small>
                             </div>
                         </article>
+                        <article className='skill-details'>
+                            <BsPatchCheckFill className='skill-details-icon'/>
+                            <div>
+                                <h4>EJS</h4>
+                                <small className='text-light'>Basic</small>
+                            </div>
+                        </article>
+                        <article className='skill-details'>
+                            <BsPatchCheckFill className='skill-details-icon'/>
+                            <div>
+                                <h4>Passportjs</h4>
+                                <small className='text-light'>Basic</small>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>

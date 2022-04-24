@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
     overflow: hidden;
     background: url('../../assets/city.jpg');
     background-repeat: no-repeat;
@@ -17,6 +17,10 @@ header {
     height: 100%;
     position: relative;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
 }
 
 /* cta */
@@ -76,8 +80,9 @@ header {
 .hero {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
-    margin: 0 auto;
-    padding: 2rem;
+    /* margin: auto; */
+    padding: 2rem 8rem;
+    margin: 20px;
     border-radius: 1.4rem;
     backdrop-filter: blur(5px);
 
@@ -131,6 +136,11 @@ header {
         text-transform: uppercase;
         letter-spacing: 4px;
         
+    }
+
+    .hero {
+        padding: 20px;
+        width: max-content;
     }
 
     .hero h1 {
