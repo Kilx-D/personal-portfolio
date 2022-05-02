@@ -15,6 +15,7 @@ footer a {
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
+    transition: var(--transition);
 }
 
 .permalinks {
@@ -23,6 +24,9 @@ footer a {
     justify-content: center;
     gap: 2rem;
     margin: 0 auto 3rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: var(--transition);
 }
 
 .footer-socials {
@@ -39,6 +43,7 @@ footer a {
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
+    text-transform: uppercase;
     transition: var(--transition);
 }
 

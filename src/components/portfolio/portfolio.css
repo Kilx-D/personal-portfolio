@@ -18,10 +18,10 @@
     background: transparent;
 }
 
-.portfolio-item-image {
+.portfolio-item-image img{
     border-radius: 1.5rem;
     overflow: hidden;
-    
+    aspect-ratio: 1/1;
 }
 
 .portfolio-item h3 {

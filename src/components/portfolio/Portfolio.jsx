@@ -13,7 +13,7 @@ const data = [
   {
       id: 1,
       image: "https://media.discordapp.net/attachments/781794429652566056/967536676652081232/unknown.png?width=477&height=422",
-      title: 'Programmer survey Form',
+      title: 'Programmer survey Form made with HTML and CSS',
       github: 'https://codepen.io/kilx-d/pen/qBXMWdZ',
       demo: 'https://codepen.io/kilx-d/full/qBXMWdZ'
 
@@ -34,15 +34,15 @@ const data = [
   },
   {
       id: 4,
-      image: "https://media.discordapp.net/attachments/781794429652566056/967537943029878853/unknown.png?width=763&height=422",
+      image: "https://media.discordapp.net/attachments/781794429652566056/967880071731875900/unknown.png?width=407&height=422",
       title: 'Tindog Business Landing Page made with Bootstrap',
       github: 'https://github.com/Kilx-D/Tindog',
       demo: 'https://kilx-d.github.io/Tindog/'
   },
   {
       id: 5,
-      image: "https://media.discordapp.net/attachments/781794429652566056/967550557118140436/unknown.png?width=498&height=422",
-      title: 'Daily Journal Blog site made with ejs, expressjs, and mongoDB',
+      image: "https://cdn.discordapp.com/attachments/781794429652566056/967879814767853588/unknown.png",
+      title: 'Daily Journal Blog site made with EJS, expressjs, and mongoDB',
       github: 'https://github.com/Kilx-D/ejs-blog',
       demo: 'https://damp-atoll-59993.herokuapp.com'
   }, 
