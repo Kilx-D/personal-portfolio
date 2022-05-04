@@ -48,6 +48,18 @@
     <div class="loader-wrapper">
         <h2>Stand By . . .</h2>
         <span class="loader"><span class="loader-inner"></span></span>
+        <img id="load-meme" src={} alt="">
+        <script>
+            fetch("https://meme-api.herokuapp.com/gimme/ComedyArchaeology")
+            .then(x => x.json())
+            .then(x => {
+                document.querySelector("#load-meme").setAttribute("src", x.url);
+                document.querySelector(".loader").remove();
+            })
+
+            
+        </script>
+        
     </div>
 
     <script>

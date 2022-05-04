@@ -238,3 +238,9 @@ img {
     }
   }
 
+#load-meme {
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
