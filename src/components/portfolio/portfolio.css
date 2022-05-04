@@ -53,3 +53,7 @@
         gap: 1rem;
     }
 }
+
+#fact {
+    margin-top: 0;
+}

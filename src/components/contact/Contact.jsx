@@ -4,24 +4,24 @@ import {MdOutlineEmail} from 'react-icons/md';
 import {RiMessengerLine} from 'react-icons/ri';
 import {BsWhatsapp} from 'react-icons/bs';
 import { useRef } from 'react';
-import emailjs from 'emailjs-com';
+// import emailjs from 'emailjs-com';
 
 const Contact = () => {
 
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs.sendForm('service_ez3iw5p', 'template_24c2u3m', form.current, '-WA3koGhHzXoSKcC_')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+  //   emailjs.sendForm('service_ez3iw5p', 'template_24c2u3m', form.current, '-WA3koGhHzXoSKcC_')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
 
-      e.target.reset();
-  };
+  //     e.target.reset();
+  // };
   
   return (
     <section id="contact">
@@ -52,12 +52,12 @@ const Contact = () => {
           </div>
         </div>
         {/* end of contact options */}
-        <form ref={form} onSubmit={sendEmail}>
+        {/* <form ref={form} onSubmit={sendEmail}>
             <input  type="text" name="name" placeholder='Your Full Name' required/>
             <input type="email" name="email" placeholder='Your Email' required/>
             <textarea name="message"rows="10" placeholder='Your Message' required></textarea>
             <button type="submit" className="btn btn-primary">Send Message</button>
-        </form>
+        </form> */}
       </div>
     </section>
     )

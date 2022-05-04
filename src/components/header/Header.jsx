@@ -11,11 +11,11 @@ const Header = () => {
         <div className='hero'>
           <h5>Hello I'm</h5>
           <h1>Daniel Portillo</h1>
-          <h5 className="text-light">Fullstack Web Developer</h5>
+          <h5 className="text-light">junior web engineer</h5>
           <CTA />
         </div>
         
-        <HeaderSocials />
+        {/* <HeaderSocials /> */}
 
         {/* <div className="me">
                 <img src={ME} alt="me" />

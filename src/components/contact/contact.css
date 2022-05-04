@@ -1,8 +1,7 @@
 .container.contact_container {
-    width: 58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
 }
 
 .contact-options {
@@ -13,7 +12,7 @@
 
 .contact-option {
     background: var(--color-bg-variant);
-    padding: 1.2rem;
+    padding: 2rem 8rem;
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
