@@ -27,6 +27,7 @@
     <meta name="twitter:card"
         content="Hi, I'm Daniel, or Kilxby/Kilxter around the internet. I am a fullstack web developer looking for intern and entry level opputunities to gain experience in the industry. I have been studying to code for 2 years and have learned multiple technologies. I'm a fast learner and a natural problem solver that can help you achieve your goals with efficiency! I hope to be working with you soon, I won't let you down :).">
     <link rel="stylesheet" type="text/css" href="./loader.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0QP6Z8Z0CN"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -40,13 +41,21 @@
 <body>
     <!-- hi there stranger, i hope you like what you see 😉) -->
     <noscript>turn on javascript for me pretty pls 😰</noscript>
-    <div class="loader-wrapper">
-        <span class="loader"><span class="loader-inner"></span></span>
-    </div>
+    
     <div id="root"></div>
     <!-- i hope they liked my site, i worked very hard on it 🤞 -->
     
-    
+    <div class="loader-wrapper">
+        <h4>Stand By . . .</h4>
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <script>
+        $(window).on("load", function() {
+            $(".loader-wrapper").fadeOut("slow");
+            document.body.style.overflow = "scroll";
+        });
+    </script>
     
 
 </body>
