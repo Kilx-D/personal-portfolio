@@ -60,6 +60,11 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
+
+      
+
+      
+
       <h5 id="fact">Fun Fact: This site was handcrafted by me with react :)</h5>
 
       <div className="container portfolio-container">

@@ -28,6 +28,8 @@ const Contact = () => {
       <h5>Let's talk</h5>
       <h2>Contact Me</h2>
 
+      {/* i hope they text or email instead of call 🤞 */}
+
       <div className="container contact_container">
         <div className="contact-options">
           <div className="contact-option">

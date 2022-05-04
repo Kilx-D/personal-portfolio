@@ -64,13 +64,7 @@ const Skills = () => {
                                 <small className='text-light'>Basic</small>
                             </div>
                         </article>
-                        <article className='skill-details'>
-                            <BsPatchCheckFill className='skill-details-icon'/>
-                            <div>
-                                <h4>Threejs</h4>
-                                <small className='text-light'>Basic</small>
-                            </div>
-                        </article>
+                        
                     </div>
                 </div>
                 <div className="skill-backend">
@@ -131,7 +125,7 @@ const Skills = () => {
                         <article className='skill-details'>
                             <BsPatchCheckFill className='skill-details-icon'/>
                             <div>
-                                <h4>PHP</h4>
+                                <h4>Selenium</h4>
                                 <small className='text-light'>Basic</small>
                             </div>
                         </article>
@@ -167,6 +161,13 @@ const Skills = () => {
                             <BsPatchCheckFill className='skill-details-icon'/>
                             <div>
                                 <h4>Passportjs</h4>
+                                <small className='text-light'>Basic</small>
+                            </div>
+                        </article>
+                        <article className='skill-details'>
+                            <BsPatchCheckFill className='skill-details-icon'/>
+                            <div>
+                                <h4>Puppeteer</h4>
                                 <small className='text-light'>Basic</small>
                             </div>
                         </article>

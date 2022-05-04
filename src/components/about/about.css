@@ -1,7 +1,9 @@
 .about_container {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+    display: flex;
+    justify-content: center;
+    background: var(--color-bg-variant);
+    padding: 1.5rem;
+    border-radius: 15px;
 }
 
 .about_me {

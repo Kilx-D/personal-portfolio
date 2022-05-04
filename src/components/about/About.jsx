@@ -9,11 +9,11 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className='container about_container'>
-        <div className='about_me'>
+        {/* <div className='about_me'>
           <div className="about_me_image">
-            <img src={ME} alt="an image of me" id="about-me-image"/>
+            <img src={ME} alt="an image of me" id="about-me-image" />
           </div>
-        </div>
+        </div> */}
 
         <div className='about_content'>
           <div className="about_cards">
@@ -23,10 +23,10 @@ const About = () => {
           </div>
 
           <p>
-          Hi, I'm Daniel, or Kilxby/Kilxter around the internet. I am a junior web developer looking for entry or junior level
-          opputunities to gain experience in the industry. I have been studying to code 
-          for 2 years and have learned multiple technologies in front and backend development. I have made multiple applications ranging from web apps, APIs, to web bots. I'm a fast learner and a natural 
-          problem solver that can help you achieve your goals with efficiency! I hope to be working with you soon, I won't let you down :).
+            Hi, I'm Daniel, or Kilxby/Kilxter around the internet. I am a junior web developer looking for entry or junior level
+            opputunities to gain experience in the industry. I have been studying to code
+            for 2 years and have learned multiple technologies in front and backend development. I have made multiple applications ranging from web apps, APIs, to web bots. I'm a fast learner and a natural
+            problem solver that can help you achieve your goals with efficiency! I hope to be working with you soon, I won't let you down :).
 
           </p>
 
